@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum Matrix Elements", "Sum Matrix Elements\Sum Matrix Elements.csproj", "{713A8502-B85A-414F-B63D-A2287CFDC673}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sum Matrix Elements", "Sum Matrix Elements\Sum Matrix Elements.csproj", "{713A8502-B85A-414F-B63D-A2287CFDC673}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsefulMatrixMethods", "UsefulMatrixMethods\UsefulMatrixMethods.csproj", "{74C1424F-EB0B-44BA-8BD2-69E6BAB0B437}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsefulMatrixMethods", "UsefulMatrixMethods\UsefulMatrixMethods.csproj", "{74C1424F-EB0B-44BA-8BD2-69E6BAB0B437}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOFCols", "SumOFCols\SumOFCols.csproj", "{EF5F39A4-162F-4688-B12B-DFCEE61AFD48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOFCols", "SumOFCols\SumOFCols.csproj", "{EF5F39A4-162F-4688-B12B-DFCEE61AFD48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primary Diagonal", "Primary Diagonal\Primary Diagonal.csproj", "{0A5700A2-9341-4CED-A79F-805A1D294DF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Primary Diagonal", "Primary Diagonal\Primary Diagonal.csproj", "{0A5700A2-9341-4CED-A79F-805A1D294DF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symbol in MatrixCordinates", "Symbol in Matrix\Symbol in MatrixCordinates.csproj", "{08E5B89E-49A8-42E1-AEB7-776871B7A434}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Symbol in MatrixCordinates", "Symbol in Matrix\Symbol in MatrixCordinates.csproj", "{08E5B89E-49A8-42E1-AEB7-776871B7A434}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jagged-Array Modification", "Jagged-Array Modification\Jagged-Array Modification.csproj", "{6C5401B0-7EE8-419A-AE58-5D487DD6851A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jagged-Array Modification", "Jagged-Array Modification\Jagged-Array Modification.csproj", "{6C5401B0-7EE8-419A-AE58-5D487DD6851A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diagonal Difference", "Diagonal Difference\Diagonal Difference.csproj", "{D49DA031-768B-4E0B-A960-5AA73A03B7AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squares in Matrix", "Squares in Matrix\Squares in Matrix.csproj", "{A23735F2-B189-4401-AE30-E283C4462417}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{6C5401B0-7EE8-419A-AE58-5D487DD6851A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C5401B0-7EE8-419A-AE58-5D487DD6851A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C5401B0-7EE8-419A-AE58-5D487DD6851A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49DA031-768B-4E0B-A960-5AA73A03B7AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49DA031-768B-4E0B-A960-5AA73A03B7AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49DA031-768B-4E0B-A960-5AA73A03B7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49DA031-768B-4E0B-A960-5AA73A03B7AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A23735F2-B189-4401-AE30-E283C4462417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A23735F2-B189-4401-AE30-E283C4462417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A23735F2-B189-4401-AE30-E283C4462417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A23735F2-B189-4401-AE30-E283C4462417}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

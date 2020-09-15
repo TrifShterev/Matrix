@@ -27,10 +27,7 @@ namespace Sum_Matrix_Elements
             int[,] matrix = new int[rows, cols];
             for (int row = 0; row < rows; row++)
             {
-                int[] currentRow = Console.ReadLine()
-                .Split(new char[] { ',', ' ' }, StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse)
-                .ToArray();
+                int[] currentRow = ParseArrayFromConsole(',',' ');
 
                 for (int col = 0; col < cols; col++)
                 {

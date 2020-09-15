@@ -9,6 +9,25 @@ namespace UsefulMatrixMethods
         {
             Console.WriteLine("Hello World!");
         }
+        private static int SecondDiagonalSum(int[,] matrix)
+        {
+            var curCol = 0;
+            var diagonalSum = 0;
+            for (int row = matrix.GetLength(0) - 1; row >= 0; row--)
+            {
+                if (curCol > matrix.GetLength(1))
+                {
+                    curCol = 0;
+                    break;
+                }
+                else
+                {
+                    diagonalSum += matrix[row, curCol];
+                    curCol++;
+                }
+            }
+            return diagonalSum;
+        }
         private static void PrimeDiagonalSum(int[,] matrix)
         {
             var curCol = 0;
