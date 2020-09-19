@@ -9,6 +9,16 @@ namespace UsefulMatrixMethods
         {
             Console.WriteLine("Hello World!");
         }
+        private static void SwapsTwoElementsInMatrix(string[,] matrix, int rowOne, int colOne, int rowTwo, int colTwo)
+        {
+            var temp = matrix[rowOne, colOne];
+            matrix[rowOne, colOne] = matrix[rowTwo, colTwo];
+            matrix[rowTwo, colTwo] = temp;
+        }
+        private static bool CellCoordinatesValidation(string[,] matrix, int rowOne, int colOne)
+        {
+            return rowOne >= 0 && rowOne < matrix.GetLength(0) && colOne >= 0 && colOne < matrix.GetLength(1);
+        }
         private static int SecondDiagonalSum(int[,] matrix)
         {
             var curCol = 0;
