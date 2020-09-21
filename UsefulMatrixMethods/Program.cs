@@ -9,6 +9,60 @@ namespace UsefulMatrixMethods
         {
             Console.WriteLine("Hello World!");
         }
+        static int GetCountAttackedKnights(char[,] matrix, int row, int col)
+        {
+            //0K0K0- this method checks by the horse/knight moves at the chess board 
+            //K000K Knight-'K'  also checks how many Knights are at the board
+            //00K00
+            //K000K
+            //0K0K0
+            int counter = 0;
+            int n = matrix.GetLength(0);
+            //UP Above the middle 'K' on the board
+            if (row - 2 >= 0 && col - 1 >= 0 && matrix[row - 2, col - 1] == 'K')
+            {
+                counter++;
+            }
+            if (row - 2 >= 0 && col + 1 < n && matrix[row - 2, col + 1] == 'K')
+            {
+                counter++;
+            }
+            if (row - 1 >= 0 && col - 2 >= 0 && matrix[row - 1, col - 2] == 'K')
+            {
+                counter++;
+            }
+            if (row - 1 >= 0 && col + 2 < n && matrix[row - 1, col + 2] == 'K')
+            {
+                counter++;
+            }
+            //Down from the middle 'K'
+            if (row + 1 < n && col - 2 >= 0 && matrix[row + 1, col - 2] == 'K')
+            {
+                counter++;
+            }
+            if (row + 1 < n && col + 2 < n && matrix[row + 1, col + 2] == 'K')
+            {
+                counter++;
+            }
+            if (row + 2 < n && col - 1 >= 0 && matrix[row + 2, col - 1] == 'K')
+            {
+                counter++;
+            }
+            if (row + 2 < n && col + 1 < n && matrix[row + 2, col + 1] == 'K')
+            {
+                counter++;
+            }
+            return counter;
+        }
+        private static bool ValidateCellInJaggedMatrix(double[][] matrix, int row, int col)
+        {
+            bool isValid = false;
+            if (row >= 0 && row < matrix.Length && col >= 0 && col < matrix[row].Length)
+            {
+                isValid = true;
+            }
+            return isValid;
+        }
         private static void SwapsTwoElementsInMatrix(string[,] matrix, int rowOne, int colOne, int rowTwo, int colTwo)
         {
             var temp = matrix[rowOne, colOne];
@@ -114,6 +168,13 @@ namespace UsefulMatrixMethods
                 }
 
                 Console.WriteLine();
+            }
+        }
+        private static void PrintJaggedMatrix(int rows, double[][] matrix)
+        {
+            for (int row = 0; row < rows; row++)
+            {
+                Console.WriteLine(string.Join(" ", matrix[row]));
             }
         }
     }

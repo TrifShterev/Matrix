@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix Shuffling", "Matrix 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jagged Array Manipulator", "Jagged Array Manipulator\Jagged Array Manipulator.csproj", "{D1B5D4B0-63BC-4899-A167-FDA1051C6CB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knight Game", "Knight Game\Knight Game.csproj", "{D19AD4E5-1BAC-4D6C-8C81-9DD2A411FB7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radioactive Mutant Vampire Bunnies", "Radioactive Mutant Vampire Bunnies\Radioactive Mutant Vampire Bunnies.csproj", "{EE02382C-5DB0-4795-9817-B8ECBA002568}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{D1B5D4B0-63BC-4899-A167-FDA1051C6CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1B5D4B0-63BC-4899-A167-FDA1051C6CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1B5D4B0-63BC-4899-A167-FDA1051C6CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19AD4E5-1BAC-4D6C-8C81-9DD2A411FB7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19AD4E5-1BAC-4D6C-8C81-9DD2A411FB7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19AD4E5-1BAC-4D6C-8C81-9DD2A411FB7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19AD4E5-1BAC-4D6C-8C81-9DD2A411FB7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE02382C-5DB0-4795-9817-B8ECBA002568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE02382C-5DB0-4795-9817-B8ECBA002568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE02382C-5DB0-4795-9817-B8ECBA002568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE02382C-5DB0-4795-9817-B8ECBA002568}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
