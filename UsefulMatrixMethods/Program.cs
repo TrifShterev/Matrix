@@ -143,10 +143,10 @@ namespace UsefulMatrixMethods
             return matrix;
         }
 
-        static int[] ParseArrayFromConsole(params char[] splitSymbols)
+        static int[] ParseArrayFromConsole(params char[] symbolsToSplitBy)
         {
             return Console.ReadLine()
-                .Split(splitSymbols, StringSplitOptions.RemoveEmptyEntries)
+                .Split(symbolsToSplitBy, StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToArray();
         }
