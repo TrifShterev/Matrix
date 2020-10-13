@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Radioactive Mutant Vampire 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Snake Moves", "Snake Moves\Snake Moves.csproj", "{82E958E8-6AC6-4731-9731-F0541E80C236}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximal Sum 3x3Matrix", "Maximal Sum 3x3Matrix\Maximal Sum 3x3Matrix.csproj", "{15869F07-2FA5-4E9C-B7E6-2BC97F5C81F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maximal Sum 3x3Matrix", "Maximal Sum 3x3Matrix\Maximal Sum 3x3Matrix.csproj", "{15869F07-2FA5-4E9C-B7E6-2BC97F5C81F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bee-ExamPrep", "Bee-ExamPrep\Bee-ExamPrep.csproj", "{A2F00240-0E0F-414A-A58B-A3C3C1955346}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{15869F07-2FA5-4E9C-B7E6-2BC97F5C81F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15869F07-2FA5-4E9C-B7E6-2BC97F5C81F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15869F07-2FA5-4E9C-B7E6-2BC97F5C81F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F00240-0E0F-414A-A58B-A3C3C1955346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F00240-0E0F-414A-A58B-A3C3C1955346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F00240-0E0F-414A-A58B-A3C3C1955346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F00240-0E0F-414A-A58B-A3C3C1955346}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

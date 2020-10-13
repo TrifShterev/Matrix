@@ -10,7 +10,8 @@ namespace Sum_Matrix_Elements
             int[] dimensions = ParseArrayFromConsole(',', ' ');
             int rows = dimensions[0];
             int cols = dimensions[1];
-            int[,] matrix = FillingMatrixOfIntegers(rows, cols); long sum = 0;
+            int[,] matrix = FillingMatrixOfIntegers(rows, cols); 
+            long sum = 0;
             foreach (var element in matrix)
             {
                 sum += element;
