@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Snake Moves", "Snake Moves\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maximal Sum 3x3Matrix", "Maximal Sum 3x3Matrix\Maximal Sum 3x3Matrix.csproj", "{15869F07-2FA5-4E9C-B7E6-2BC97F5C81F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bee-ExamPrep", "Bee-ExamPrep\Bee-ExamPrep.csproj", "{A2F00240-0E0F-414A-A58B-A3C3C1955346}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bee-ExamPrep", "Bee-ExamPrep\Bee-ExamPrep.csproj", "{A2F00240-0E0F-414A-A58B-A3C3C1955346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake-ExamPrep", "Snake-ExamPrep\Snake-ExamPrep.csproj", "{F274E341-95FF-46F0-97D7-DC6E5DC97966}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{A2F00240-0E0F-414A-A58B-A3C3C1955346}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2F00240-0E0F-414A-A58B-A3C3C1955346}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2F00240-0E0F-414A-A58B-A3C3C1955346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F274E341-95FF-46F0-97D7-DC6E5DC97966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F274E341-95FF-46F0-97D7-DC6E5DC97966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F274E341-95FF-46F0-97D7-DC6E5DC97966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F274E341-95FF-46F0-97D7-DC6E5DC97966}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
