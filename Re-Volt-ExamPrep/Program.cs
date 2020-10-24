@@ -42,7 +42,7 @@ namespace Re_Volt_ExamPrep
                             playerRow = teritory.GetLength(0) - 1;
                             if (teritory[playerRow, playerCol] == 'T')
                             {
-                                playerRow++;
+                                playerRow=0;
                             }
                             break;
                         }
@@ -60,7 +60,7 @@ namespace Re_Volt_ExamPrep
                             playerRow = 0;
                             if (teritory[playerRow, playerCol] == 'T')
                             {
-                                playerRow--;
+                                playerRow= teritory.GetLength(0) - 1;
                             }
                             break;
                         }
@@ -78,7 +78,7 @@ namespace Re_Volt_ExamPrep
                             playerCol = teritory.GetLength(1) - 1;
                             if (teritory[playerRow, playerCol] == 'T')
                             {
-                                playerCol++;
+                                playerCol=0;
                             }
                             break;
                         }
@@ -97,7 +97,7 @@ namespace Re_Volt_ExamPrep
                             playerCol = 0;
                             if (teritory[playerRow, playerCol] == 'T')
                             {
-                                playerCol--;
+                                playerCol= teritory.GetLength(1) - 1;
                             }
                             break;
                         }
@@ -126,6 +126,10 @@ namespace Re_Volt_ExamPrep
                     Console.WriteLine("Player won!");
                     PrintMatrix(teritory);
                     return;
+                }
+                if (turns==0)
+                {
+                    break;
                 }
                 command =Console.ReadLine();
             }
