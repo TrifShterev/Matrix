@@ -29,10 +29,10 @@ namespace Re_Volt_ExamPrep
                 }
             }
             string command = Console.ReadLine();
-            while(turns!=0)
+            while (turns != 0)
             {
                 turns--;
-               
+
 
                 switch (command)
                 {
@@ -42,7 +42,7 @@ namespace Re_Volt_ExamPrep
                             playerRow = teritory.GetLength(0) - 1;
                             if (teritory[playerRow, playerCol] == 'T')
                             {
-                                playerRow=0;
+                                playerRow = 0;
                             }
                             break;
                         }
@@ -52,7 +52,7 @@ namespace Re_Volt_ExamPrep
                         {
                             playerRow++;
                         }
-                         
+
                         break;
                     case "down":
                         if (playerRow + 1 > teritory.GetLength(0) - 1)
@@ -60,7 +60,7 @@ namespace Re_Volt_ExamPrep
                             playerRow = 0;
                             if (teritory[playerRow, playerCol] == 'T')
                             {
-                                playerRow= teritory.GetLength(0) - 1;
+                                playerRow = teritory.GetLength(0) - 1;
                             }
                             break;
                         }
@@ -70,7 +70,7 @@ namespace Re_Volt_ExamPrep
                         {
                             playerRow--;
                         }
-                         
+
                         break;
                     case "left":
                         if (playerCol - 1 < 0)
@@ -78,7 +78,7 @@ namespace Re_Volt_ExamPrep
                             playerCol = teritory.GetLength(1) - 1;
                             if (teritory[playerRow, playerCol] == 'T')
                             {
-                                playerCol=0;
+                                playerCol = 0;
                             }
                             break;
                         }
@@ -88,8 +88,8 @@ namespace Re_Volt_ExamPrep
                         {
                             playerCol++;
                         }
-                        
-                        
+
+
                         break;
                     case "right":
                         if (playerCol + 1 > teritory.GetLength(1) - 1)
@@ -97,7 +97,7 @@ namespace Re_Volt_ExamPrep
                             playerCol = 0;
                             if (teritory[playerRow, playerCol] == 'T')
                             {
-                                playerCol= teritory.GetLength(1) - 1;
+                                playerCol = teritory.GetLength(1) - 1;
                             }
                             break;
                         }
@@ -106,18 +106,18 @@ namespace Re_Volt_ExamPrep
                         if (teritory[playerRow, playerCol] == 'T')
                         {
                             playerCol--;
-                        }                     
-                         
-                        
+                        }
+
+
                         break;
                 }
-                
-                
-                 
-                 
-                if (teritory[playerRow,playerCol]=='B')
+
+
+
+
+                if (teritory[playerRow, playerCol] == 'B')
                 {
-                    
+
                     continue;
                 }
                 if (teritory[playerRow, playerCol] == 'F')
@@ -127,11 +127,11 @@ namespace Re_Volt_ExamPrep
                     PrintMatrix(teritory);
                     return;
                 }
-                if (turns==0)
+                if (turns == 0)
                 {
                     break;
                 }
-                command =Console.ReadLine();
+                command = Console.ReadLine();
             }
             Console.WriteLine("Player lost!");
             teritory[playerRow, playerCol] = 'f';
